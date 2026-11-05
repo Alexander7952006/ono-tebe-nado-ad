@@ -187,7 +187,7 @@ ul {
 
 .lots__card-list {
   display: flex;
-  flex-wrap: wrap; /* ДОБАВЛЕНО: для переноса 4-й карточки */
+  flex-wrap: wrap; 
   gap: 35px; 
 }
 
