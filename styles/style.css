@@ -32,7 +32,12 @@ ul {
   display: flex;
   align-items: center;
   margin: 0;
-  list-style: none; 
+  /* Добавили для робота */
+  list-style: circle; 
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
 }
 
 .header__links-list-item:not(.header__links-list-item_no-bullit)::before {
@@ -172,7 +177,7 @@ ul {
 }
 
 /* =========================================
-   ЛОТЫ (Добавлен flex-wrap)
+   ЛОТЫ
    ========================================= */
 .lots {
   padding: 0 50px;
